@@ -1,4 +1,4 @@
-package android.jmichalek.jaymichalekwguscheduler.UI;
+package android.jmichalek.jaymichalekwguscheduler.All.UI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,12 +6,12 @@ import android.jmichalek.jaymichalekwguscheduler.R;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class TermDetail extends AppCompatActivity {
+public class AddCourseScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_term_detail);
+        setContentView(R.layout.activity_add_course_screen);
 
         // Allows user to switch back to previous screen & retain information.
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -28,8 +28,9 @@ public class TermDetail extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+
     }
 
-    //TODO Add action bar + Term Detail screen design?
+    //TODO: ADD NOTE AS FIELD IN THIS SCREEN.
 
 }
